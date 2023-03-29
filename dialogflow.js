@@ -3,7 +3,7 @@ require('dotenv').config()
 
 
 const sessionClient = new dialogflow.SessionsClient({
-    keyFilename: '/home/mkhi/Developer/TD/landing/tdigital-381414-45a62eb327e3.json'
+    keyFilename: process.env.PATH_FILE_CREDENTIALS
 });
 
 async function sendToDialogFlow(message, session, params) {
