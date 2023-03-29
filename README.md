@@ -37,6 +37,18 @@ Esto abrirá una ventana de código QR en tu terminal. Escanea el código QR uti
 
 # Guia técnica para la implementación del chatboot
 
+## Inicio rápido
+
+### Instalación de las dependencias
+
+    npm install
+
+### Iniciar el servidor
+
+    npm run dev
+    # or
+    npm run start
+
 ## Descripción de las dependencias
 
 Aquí se describen las dependencias utilizadas en la implementación del chatbot para WhatsApp utilizando Node.js, Venom y DialogFlow.
